@@ -29,7 +29,7 @@ int lowerB(vi &v, int val){
 int ind=v.size(),l=0,r=v.size(),mid;while(l<=r){mid=(l+r)/2;if(v[mid]>=val){ind=mid;r=mid-1;}else l=mid+1;}return ind;
 }
  
- 
+ // ggg
  
 void solve(){
   int x; cin>>x;
